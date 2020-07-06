@@ -7,6 +7,8 @@
 </head>
 <body>
     <form action="http://www.example.com/login.php" method="POST">
+        <fieldset>
+            <legend>Personal detail</legend>
         <p>First Name
         <input type="text" name="First Name" size="15" maxlength="30">
     Last Name
@@ -14,10 +16,16 @@
     </p>
     <p>
         Gender:
-        <input type="radio" name="gender" value="m">male
-        <input type="radio" name="gender" value="f" checked>female
+        <label><input type="radio" name="gender" value="m">Male</label>
+        <label ><input type="radio" name="gender" value="f" checked>female</label>
     </p>
+    Date of birth:
+    <input type="date" name="dob">
     <p>
+        <p>
+            Enter your Email Address:
+            <input type="email" name="email">
+        </p>
         Nationality:
         <select name="countries" multiple>
             <option value="Pakistan">Pakistan</option>
@@ -30,6 +38,7 @@
             <option value="Australia">Australia</option>
         </select>
     </p>
+        </fieldset>
     <p>
         password:
     <input type="password" name="Password" size="15" maxlength="30">
@@ -57,6 +66,9 @@
     <br/>
     <input type="submit" value="Upload">
     <input type="submit">
+    <br/>
+    <br/>
+    <input type="image" src="./../../Photos/submit.png" width="150">
     </form>
 </body>
 </html>
