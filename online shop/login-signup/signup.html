@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Forms</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php" method="POST">
+        <p>First Name
+        <input type="text" name="First Name" size="15" maxlength="30">
+    Last Name
+        <input type="text" name="Last Name" size="15" maxlength="30">
+    </p>
+    <p>
+        Gender:
+        <input type="radio" name="gender" value="m">male
+        <input type="radio" name="gender" value="f" checked>female
+    </p>
+    <p>
+        Nationality:
+        <select name="countries" multiple>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="England">England</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+    </p>
+    <p>
+        password:
+    <input type="password" name="Password" size="15" maxlength="30">
+    </p>
+    <p>
+        Re-enter password:
+        <input type="password" name="Password" size="15" maxlength="30">
+    </p>
+    <p>
+        Interests:
+        <input type="checkbox" name="Interests" value="men">Men's clothing
+        <input type="checkbox" name="Interests" value="wmn">Women's clothing
+        <input type="checkbox" name="Interests" value="acc">Accessories
+        <input type="checkbox" name="Interests" value="elec">electronics
+    </p>
+    <p>
+        Comments:
+    </p>
+    <textarea name="Comments" rows="5" cols="30">Enter your Comments...</textarea>
+    <p>
+        Update Profile Picture
+    </p>
+    <input type="file" name="dp">
+    <br/>
+    <br/>
+    <input type="submit" value="Upload">
+    <input type="submit">
+    </form>
+</body>
+</html>
