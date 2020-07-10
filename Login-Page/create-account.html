@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+</head>
+<body>
+    <form action="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-GB&hl=en-GB&dsh=S-1458896926%3A1594367258826579&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp" method="POST">
+        <fieldset style="text-align: center;">
+        <p>First Name
+        <input type="text" name="First Name" size="15" maxlength="30">
+    Last Name
+        <input type="text" name="Last Name" size="15" maxlength="30">
+    </p>
+    <p>
+        Gender:
+        <label><input type="radio" name="gender" value="m" checked>Male</label>
+        <label ><input type="radio" name="gender" value="f" >female</label>
+    </p>
+    Date of birth:
+        <input type="date" name="dob">
+    <p>
+    <p>
+        Enter your Email Address:
+        <input type="email" name="email">
+    </p> 
+    <p>
+        password:
+        <input type="password" name="Password" size="15" maxlength="30">
+    </p>
+    <p>
+        Re-enter password:
+        <input type="password" name="Password" size="15" maxlength="30">
+    </p>
+    </p>
+        Nationality:
+        <select name="countries">
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="England">England</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+    </p>
+        <input type="submit" value="Create account">
+    </fieldset>
+    </form>
+</body>
+</html>
