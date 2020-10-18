@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        input {
+            background-color: black;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <form action="./create-account.html" method="POST">
+        <table>
+            <fieldset style="text-align: center;">
+                <legend></legend>
+            </fieldset>
+        </table>
         <fieldset style="text-align: center;">
             <legend>Email Account</legend>
-            <input type="email">
+            <p>Enter your Email :
+            <input type="email" placeholder="email">
+            </p>
             <br>
             <br>
-            <input type="password">
+            <p>Enter your password :
+            <input type="password" placeholder="password">
+            </p>
             <br>
             <br>
             <input type="submit" value="create account">
